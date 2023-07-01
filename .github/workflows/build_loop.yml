@@ -54,10 +54,10 @@ jobs:
           # the final customization listed above CANNOT have a continuation character "\"
           # more customizations can be pasted after this line
           # Update icon to Angry Panda
-		  curl https://github.com/tornado14/LoopWorkspace/commit/dd3d27ee5ec064b345647008878376ac7dbe8148.patch | git apply -v 
-		  curl https://github.com/tornado14/LoopWorkspace/commit/87e60f83b46ee3051c0f29af434b85f34528296c.patch | git apply -v 
-		  curl https://github.com/tornado14/LoopWorkspace/commit/fcecf96790913e9202e7329c3d22f61af0022c25.patch | git apply -v 
-		  curl https://github.com/tornado14/LoopWorkspace/commit/c452c2047326b78c286a980b5cf0e18c32ac9db3.patch | git apply -v 
+          curl https://github.com/tornado14/LoopWorkspace/commit/dd3d27ee5ec064b345647008878376ac7dbe8148.patch | git apply -v 
+          curl https://github.com/tornado14/LoopWorkspace/commit/87e60f83b46ee3051c0f29af434b85f34528296c.patch | git apply -v 
+          curl https://github.com/tornado14/LoopWorkspace/commit/fcecf96790913e9202e7329c3d22f61af0022c25.patch | git apply -v 
+          curl https://github.com/tornado14/LoopWorkspace/commit/c452c2047326b78c286a980b5cf0e18c32ac9db3.patch | git apply -v 
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
