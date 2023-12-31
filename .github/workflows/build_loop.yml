@@ -47,7 +47,9 @@ jobs:
           curl https://github.com/tornado14/LoopWorkspace/commit/87e60f83b46ee3051c0f29af434b85f34528296c.patch | git apply -v 
           curl https://github.com/tornado14/LoopWorkspace/commit/fcecf96790913e9202e7329c3d22f61af0022c25.patch | git apply -v 
           curl https://github.com/tornado14/LoopWorkspace/commit/c452c2047326b78c286a980b5cf0e18c32ac9db3.patch | git apply -v 
-      
+            
+          # Patch to fix widget
+          curl https://github.com/LoopKit/Loop/commit/b0f0a2825a21457d13a52da00adeb0d0ea7e96ca.patch | git apply -v
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
