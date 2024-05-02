@@ -44,11 +44,12 @@ jobs:
           testflight_expiration_warning
           
           # Update icon to Angry Panda
-          curl https://github.com/tornado14/LoopWorkspace/commit/dd3d27ee5ec064b345647008878376ac7dbe8148.patch | git apply -v 
-          curl https://github.com/tornado14/LoopWorkspace/commit/87e60f83b46ee3051c0f29af434b85f34528296c.patch | git apply -v 
-          curl https://github.com/tornado14/LoopWorkspace/commit/fcecf96790913e9202e7329c3d22f61af0022c25.patch | git apply -v 
+          curl https://github.com/tornado14/LoopWorkspace/commit/dd3d27ee5ec064b345647008878376ac7dbe8148.patch | git apply -v # delete iphone icons
+          # old delete watch iconcurl https://github.com/tornado14/LoopWorkspace/commit/87e60f83b46ee3051c0f29af434b85f34528296c.patch | git apply -v 
+          curl https://github.com/LoopKit/LoopWorkspace/commit/ba6af74f1b797d14582adf9af062e75f59bcf18e.patch | git apply -v # delete watch icons
+          curl https://github.com/tornado14/LoopWorkspace/commit/fcecf96790913e9202e7329c3d22f61af0022c25.patch | git apply -v # update iphone icons
           #curl https://github.com/tornado14/LoopWorkspace/commit/c452c2047326b78c286a980b5cf0e18c32ac9db3.patch | git apply -v 
-          curl https://github.com/LoopKit/LoopWorkspace/commit/566fd38229b30a193301d5179118f322ca4cf17d.patch | git apply -v
+          curl https://github.com/LoopKit/LoopWorkspace/commit/1726a45bb0a1ad8bc1a2867c0eba28e4f011a35e.patch | git apply -v # update watch icons
             
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
